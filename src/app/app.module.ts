@@ -9,7 +9,8 @@ import { LandingModule } from './landing/landing.module';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/modules/shared/shared.module';
 import { GalleryComponent } from './gallery/gallery.component';
-NgModule
+
+// NgModule
 
 
 @NgModule({
