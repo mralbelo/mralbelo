@@ -8,13 +8,15 @@ import { PageNotFoundComponent } from './shared/components/page-not-found/page-n
 import { LandingModule } from './landing/landing.module';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/modules/shared/shared.module';
+import { GalleryComponent } from './gallery/gallery.component';
 NgModule
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
