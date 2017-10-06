@@ -11,6 +11,4 @@ const appRoutes: Routes = [
 
 
 export const AppRoutingProviders = [];
-export const LandingRoutingModule: ModuleWithProviders = RouterModule.forRoot(appRoutes, {
-  useHash: true
-});
+export const LandingRoutingModule: ModuleWithProviders = RouterModule.forChild(appRoutes);
