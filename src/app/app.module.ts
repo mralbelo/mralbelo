@@ -2,15 +2,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { BannerComponent } from './banner/banner.component';
+import { NavigationComponent } from './shared/components/navigation/navigation.component';NgModule
+import { LandingComponent } from './landing/landing.component';
+import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component'; 
+import { LandingModule } from './landing/landing.module';
+import { AppRoutingModule } from './app-routing.module';
+import { SharedModule } from './shared/modules/shared/shared.module';
+NgModule
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerComponent
+    PageNotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -124,6 +124,7 @@
       true,
       "element",
       "app",
+      "mralbelo"
       "kebab-case"
     ],
     "use-input-property-decorator": true,
