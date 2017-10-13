@@ -1,9 +1,9 @@
 .banner { 
   background-image: url("/assets/intro-bg.jpg");
   height: 80vh; 
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: ;
+  position: relative;
 }
