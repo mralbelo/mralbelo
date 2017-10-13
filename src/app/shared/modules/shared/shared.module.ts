@@ -1,3 +1,4 @@
+import { GalleryComponent } from '../../../gallery/gallery.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigationComponent } from '../../components/navigation/navigation.component';
@@ -13,11 +14,13 @@ import { FormsModule } from '@angular/forms';
   exports: [
     CommonModule,
     FormsModule,
-    NgbModule
+    NgbModule,
+    GalleryComponent
   ],
   
   declarations: [
-    NavigationComponent
+    NavigationComponent,
+    GalleryComponent
   ]
 })
 export class SharedModule { }
