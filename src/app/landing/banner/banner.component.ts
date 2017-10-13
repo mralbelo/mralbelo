@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner.component.css']
 })
 export class BannerComponent implements OnInit {
+  
+  model = {
+    left: true,
+    middle: false,
+    right: false
+  };
 
   constructor() { }
 

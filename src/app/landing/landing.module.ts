@@ -4,11 +4,12 @@ import { LandingComponent } from './landing.component';
 import { BannerComponent } from './banner/banner.component';
 import { LandingRoutingModule } from './landing-routing.module';
 import { AboutComponent } from './about/about.component';
+import { SharedModule } from "../shared/modules/shared/shared.module";
 
 
 @NgModule({
   imports: [
-    CommonModule,
+    SharedModule,
     LandingRoutingModule
     
   ],

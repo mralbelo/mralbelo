@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  model = {
+    left: true,
+    middle: false,
+    right: false
+  };
+
   constructor() { }
 
   ngOnInit() {
