@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     FormsModule,
     NgbModule,
-    GalleryComponent
+    GalleryComponent,
+    NavigationComponent
   ],
   
   declarations: [

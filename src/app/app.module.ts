@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavigationComponent } from './shared/components/navigation/navigation.component';NgModule
 import { LandingComponent } from './landing/landing.component';
 import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component'; 
 import { LandingModule } from './landing/landing.module';

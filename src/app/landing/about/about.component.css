@@ -1,0 +1,32 @@
+.about{
+    height: auto;
+    text-align: center;
+    padding: 10vh 10vw;
+    background-image: url("/assets/intro-bg.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    color: #fff;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    color: red;
+    letter-spacing: 10px;
+}
+
+.aboutme{
+    width: 40vw;
+    color: white;
+    text-align: center;
+    border: 2px solid yellow;
+    margin:auto;
+    font-weight: 200;
+    font-size: 1.4em;
+}
