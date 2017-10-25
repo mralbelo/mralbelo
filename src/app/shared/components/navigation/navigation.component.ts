@@ -19,6 +19,7 @@ export class NavigationComponent implements OnInit {
         } else if (distanceY < shrinkOn) {
             header.classList.remove('bg-dark');
         }
+        
     });
   }
 
