@@ -6,12 +6,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  align-content: center;
+  width: 100%;
 }
 
 .signature{
   fill: #fff;
-  width: 700px;
+  width: 50vw;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -48,5 +48,17 @@
     -webkit-filter: blur(0px);
             filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .signature {
+    width: 66vw;
+  }
+
+  .banner {
+    height: 50vh;
+    background-size: cover;
+    background-position: 10% 0%;
   }
 }
