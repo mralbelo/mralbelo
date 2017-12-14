@@ -12,12 +12,12 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 1069,
+            shrinkOn = 100,
             header = document.querySelector('nav');
         if (distanceY > shrinkOn) {
-            header.classList.add('bg-dark');
+            header.classList.add('navbar-onscroll');
         } else if (distanceY < shrinkOn) {
-            header.classList.remove('bg-dark');
+            header.classList.remove('navbar-onscroll');
         }
         
     });

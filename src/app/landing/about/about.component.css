@@ -12,21 +12,88 @@
     color: #fff;
 }
 
-h1{
-    font-size: 80px;
+.small{
+    text-transform: uppercase;
+    letter-spacing: .7vw;
+    text-align: center;
+    opacity: .5;
 }
 
-p{
-    color: red;
-    letter-spacing: 10px;
+.big{
+    text-transform: uppercase;
+    display: block;
+    margin-left: -1vw;
+    font-size: 3.5vw;
+    font-weight: bold;
 }
 
 .aboutme{
-    width: 40vw;
+    width: 70vw;
     color: white;
     text-align: center;
-    border: 2px solid yellow;
     margin:auto;
-    font-weight: 200;
-    font-size: 1.4em;
+    font-size: 1.4vw;
+}
+
+hr{
+    width: 6vw;
+    border-top: 4px solid #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.wrapper {
+    width: auto;
+}
+
+.wrapper a {
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+  
+.wrapper a .fa {
+    color: #D8E2DC;
+    transition: all 0.5s ease;
+}
+  
+
+.wrapper a:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.wrapper a:hover .fa-youtube-play {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #DD4A38;
+    transition: all 0.5s ease;
+}
+
+.wrapper a:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.wrapper a:hover .fa-500px {
+    color: #0091DF;
+    text-shadow: 0 0 15px #0091DF;
+    transition: all 0.5s ease;
+}
+
+.wrapper a:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+  
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
 }

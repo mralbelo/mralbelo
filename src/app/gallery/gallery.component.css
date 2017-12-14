@@ -1,15 +1,54 @@
 .gallery{
     text-align: center;
-    padding: 10vh;
+    padding: 20vh;
 }
 
 img {
     object-fit: cover;
-    width: 360px;
-    height: 480px;
-    margin: 4px 2px;
+    width: 260px;
+    height: 380px;
+    margin: 8px 4px;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.4);
  }
 
  img:hover {
     opacity: .8;
  }
+
+.title{
+    font-size: 3vw;
+    color:#444444;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.work-menu{
+    color: #8A8A8A;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9vw;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.active{
+    color: #444;
+}
+ 
+hr{
+    width: 6vw;
+    border-top: 4px solid #444444;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white;
+    background: black;
+}

@@ -1,4 +1,9 @@
-/* .navbar{
-    background-color: #74131c;
-} */
+.navbar-onscroll{
+    background-color: #000;
+    opacity: .9;
+    height: 50px;
+}
 
+.navbar-onscroll3 {
+    opacity: .3 !important;
+}
