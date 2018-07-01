@@ -9,18 +9,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/modules/shared/shared.module';
 import { GalleryComponent } from './gallery/gallery.component';
 
+
 // NgModule
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LandingModule
+    LandingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

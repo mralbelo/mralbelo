@@ -10,15 +10,15 @@
     position: fixed;
     text-align: center;
     z-index: 1031;
+    cursor: pointer;
 }
 
 .up i{
-    color:rgba(255, 255, 255, 0.5);
+    color:rgba(255, 255, 255, 0.7);
 }
 
 .up i:hover{
     color:#DADADA;
-    background: red;
 }
 
 .up:hover{
@@ -170,3 +170,6 @@
       display: none;
     }
   }
+
+
+  

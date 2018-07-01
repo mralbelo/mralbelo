@@ -17,7 +17,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     LandingComponent,
     BannerComponent,
     AboutComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
   ]
 })
 export class LandingModule { }

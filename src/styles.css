@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@font-face {
+    font-family: 'autograf';
+    src: url('/assets/autograf_personaluseonly-webfont.woff2') format('woff2'),
+         url('/assets/autograf_personaluseonly-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;  
+}  
 
 body{
     height: 100%;
@@ -9,4 +17,30 @@ body{
     margin: 0;
     padding: 0;
     position: relative;
+    font-family: 'poppins', sans-serif;
+    color: white;
 }
+
+hr{
+    border: 1.5px solid #ffc200;
+    margin-top: .6rem;
+}
+
+.title{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: #ffc200;
+  }
+  
+  ::selection {
+    color: black;
+    background: #ffc200;
+  }
+
+::-webkit-scrollbar {
+    width: 0px;
+ }
