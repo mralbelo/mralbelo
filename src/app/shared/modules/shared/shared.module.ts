@@ -11,7 +11,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
   imports: [
     CommonModule,
     NgbModule.forRoot(),
-    FormsModule
+    FormsModule,
+    NgCircleProgressModule.forRoot()
   ],
   exports: [
     CommonModule,
@@ -20,11 +21,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     GalleryComponent,
     NavigationComponent
   ],
-  
   declarations: [
     NavigationComponent,
     GalleryComponent,
-    NgCircleProgressModule.forRoot()
+   
   ]
 })
 export class SharedModule { }
