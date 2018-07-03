@@ -5,7 +5,7 @@ import { BannerComponent } from './banner/banner.component';
 import { LandingRoutingModule } from './landing-routing.module';
 import { AboutComponent } from './about/about.component';
 import { SharedModule } from "../shared/modules/shared/shared.module";
-import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { contactmeComponent } from './contactme/contactme.component';
 
 
 @NgModule({
@@ -17,7 +17,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     LandingComponent,
     BannerComponent,
     AboutComponent,
-    TestimonialsComponent,
+    contactmeComponent
   ]
 })
 export class LandingModule { }

@@ -5,8 +5,6 @@ import { NavigationComponent } from '../../components/navigation/navigation.comp
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 
-import { NgCircleProgressModule } from 'ng-circle-progress';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -24,7 +22,6 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
   declarations: [
     NavigationComponent,
     GalleryComponent,
-    NgCircleProgressModule.forRoot()
   ]
 })
 export class SharedModule { }

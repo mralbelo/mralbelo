@@ -17,7 +17,13 @@
 }
 
 img[src*="/assets/profile-picture.jpg"]{
-    width: 324px;
+    width: 300px;
     margin-bottom: 20px;
 }
-  
+
+.donutgraph-container{
+    display: inline-block;
+    font-size: 22px;
+    color: #9c9c9c;
+    padding: 22px;
+}
