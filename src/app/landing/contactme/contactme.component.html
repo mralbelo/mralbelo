@@ -19,19 +19,19 @@
         <input placeholder=" " id="phone" class="form-control" name="phone" type="tel">
         <div class="floater"></div>
     </div>
-    
+
     <br>
 
     <div class="form-group" style="position: relative;margin-top:30px;">
         <input placeholder=" " id="email" class="form-control" name="email" type="email">
         <div class="floater"></div>
     </div>
-    
+
     <div class="form-group" style="position: relative;margin-top:30px;">
         <input placeholder=" " id="subject" class="form-control" name="subject" type="text">
         <div class="floater"></div>
     </div>
-    
+
     <div class="form-group" style="position: relative;margin-top:30px;">
         <input placeholder=" " id="message" class="form-control" name="message" type="text">
         <div class="floater"></div>
@@ -40,7 +40,7 @@
     <div style="text-align:right; margin-top: 20px;">
       <a href="#" class="submit">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></a>
     </div>
-    
+
   </form>
 
   <div class="socialmedia">
@@ -51,6 +51,6 @@
     <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
   </div>
 
-  <div *ngFor="let format of formatsDateTest"  class="byline copy">&copy; 2018 ({{dateNow}}) Juan Albelo. All Rights Reserved</div>
+  <div *ngFor="let format of formatsDateTest"  class="byline copy">&copy; 2018 {{today | date:'yyyy'}} Juan Albelo. All Rights Reserved</div>
 
 </div>

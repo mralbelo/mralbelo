@@ -44,9 +44,6 @@
 
 }
 
-
-
-
 .blocker{
     position: fixed;
     float: left;
@@ -55,34 +52,34 @@
     z-index:99999;
     margin: 0;
     padding: 0;
-    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    background: #2980b9 url('../../assets/device-rotation-bg.jpg') repeat 0 0;
     -webkit-animation: 10s linear 0s normal none infinite animate;
     -moz-animation: 10s linear 0s normal none infinite animate;
     -ms-animation: 10s linear 0s normal none infinite animate;
     -o-animation: 10s linear 0s normal none infinite animate;
     animation: 10s linear 0s normal none infinite animate;
   }
-   
+
   @-webkit-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
+
   @-moz-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
+
   @-ms-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
+
   @-o-keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
   }
-   
+
   @keyframes animate {
     from {background-position:0 0;}
     to {background-position: 500px 0;}
@@ -97,7 +94,7 @@
     text-align: center;
     width: 60%;
   }
-  
+
   .blocker-content-copy{
     color: white;
     font-family: "Montserrat", Helvetica,Arial,sans-serif;
@@ -108,36 +105,36 @@
     -o-animation: fadein 4s; /* Opera < 12.1 */
     animation: fadein 4s;
   }
-  
+
   @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
   }
-  
+
   /* Firefox < 16 */
   @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
   }
-  
+
   /* Safari, Chrome and Opera > 12.1 */
   @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
   }
-  
+
   /* Internet Explorer */
   @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
   }
-  
+
   /* Opera < 12.1 */
   @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
   }
-  
+
   .rotate-device {
     display: block;
     width: 80px;
@@ -147,7 +144,7 @@
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
   }
-  
+
   @-moz-keyframes spin {
     from {
       -moz-transform: rotate(360deg);
@@ -158,7 +155,7 @@
       animation: 5s ease;
     }
   }
-  
+
   @-webkit-keyframes spin {
     from {
       -webkit-transform: rotate(360deg);
@@ -169,7 +166,7 @@
       animation: 5s ease;
     }
   }
-  
+
   @keyframes spin {
     from {
       -webkit-transform: rotate(360deg);
@@ -180,13 +177,13 @@
       animation: 5s ease;
     }
   }
-  
+
   @media screen and (orientation:portrait) {
     .blocker{
       display: block;
     }
   }
-  
+
   @media screen and (orientation:landscape) {
     .blocker{
       display: none;
@@ -194,4 +191,3 @@
   }
 
 
-  

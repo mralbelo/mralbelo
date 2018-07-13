@@ -15,7 +15,7 @@ export class contactmeComponent implements OnInit {
   formatsDateTest: string[] = [
     'yyyy',
   ];
-  
+
   dateNow : Date = new Date();
 
 }

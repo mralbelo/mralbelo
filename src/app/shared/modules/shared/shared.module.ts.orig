@@ -1,0 +1,31 @@
+import { GalleryComponent } from '../../../gallery/gallery.component';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NavigationComponent } from '../../components/navigation/navigation.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    NgbModule.forRoot(),
+    FormsModule,
+    NgCircleProgressModule.forRoot()
+  ],
+  exports: [
+    CommonModule,
+    FormsModule,
+    NgbModule,
+    GalleryComponent,
+    NavigationComponent
+  ],
+  declarations: [
+    NavigationComponent,
+    GalleryComponent,
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 2f004d542e015628f1cc45ada470fa2dd52ae632
+  ]
+})
+export class SharedModule { }
